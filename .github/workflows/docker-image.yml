@@ -23,4 +23,4 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       - name: Docker Build and Push
         run: |
-          docker build -t bodokertxis/ecommerce-paymentse --push  .
+          docker build -t bodokertxis/ecommerce-payments --push  .
